@@ -12,417 +12,424 @@
 
 <body>
     <h1 class="text-center my-3">ABC Aprende Con Nosotros</h1>
+     <div class="container d-flex justify-content-center">
+        <button type="button" id="todas" class="btn btn-outline-primary mx-3" onclick="todasBtn()">Todas</button>
+        <button type="button" id="vocales" class= "btn btn-outline-secondary  mx-3" onclick="vocalesBtn()">Vocales</button>
+     </div>
+    <div class="d-flex justify-content-center mt-3">
+        
+        <p>Contador: </p>
+        <p id="contador">0</p>
+        
 
-    <div>
-        <p id="contador d-flex ">Contador: 0</p>
     </div>
 
     <div class="cotainer mx-4">
         <div class="row g-3">
 
-    <!-- TARJETA A -->
-    <div class="col-6 col-md-4 col-lg-2 my-3">
-        <div class="flip-card">
-            <div class="flip-inner">
-                <!-- FRENTE -->
-                <div class="flip-front">a</div>
-                <!-- ATRAS -->
-                <div class="flip-back">
-                    <img src="img/a.jpg" alt="a">
-                    <p>a</p>
+            <!-- TARJETA A -->
+            <div class="col-6 col-md-4 col-lg-2 my-3 vocal">
+                <div class="flip-card ">
+                    <div class="flip-inner">
+                        <!-- FRENTE -->
+                        <div class="flip-front ">a</div>
+                        <!-- ATRAS -->
+                        <div class="flip-back">
+                            <img src="img/a.jpg" alt="a">
+                            <p>a</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- TARJETA B -->
-    <div class="col-6 col-md-4 col-lg-2 my-3">
-        <div class="flip-card">
-            <div class="flip-inner">
-                <!-- FRENTE -->
-                <div class="flip-front">b</div>
-                <!-- ATRAS -->
-                <div class="flip-back">
-                    <img src="img/b.avif" alt="b">
-                    <p>b</p>
+            <!-- TARJETA B -->
+            <div class="col-6 col-md-4 col-lg-2 my-3">
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <!-- FRENTE -->
+                        <div class="flip-front">b</div>
+                        <!-- ATRAS -->
+                        <div class="flip-back">
+                            <img src="img/b.avif" alt="b">
+                            <p>b</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- TARJETA C -->
-    <div class="col-6 col-md-4 col-lg-2 my-3">
-        <div class="flip-card">
-            <div class="flip-inner">
-                <!-- FRENTE -->
-                <div class="flip-front">c</div>
-                <!-- ATRAS -->
-                <div class="flip-back">
-                    <img src="img/c.webp" alt="c">
-                    <p>c</p>
+            <!-- TARJETA C -->
+            <div class="col-6 col-md-4 col-lg-2 my-3">
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <!-- FRENTE -->
+                        <div class="flip-front">c</div>
+                        <!-- ATRAS -->
+                        <div class="flip-back">
+                            <img src="img/c.webp" alt="c">
+                            <p>c</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- TARJETA D -->
-    <div class="col-6 col-md-4 col-lg-2 my-3">
-        <div class="flip-card">
-            <div class="flip-inner">
-                <!-- FRENTE -->
-                <div class="flip-front">d</div>
-                <!-- ATRAS -->
-                <div class="flip-back">
-                    <img src="img/d.png" alt="d">
-                    <p>d</p>
+            <!-- TARJETA D -->
+            <div class="col-6 col-md-4 col-lg-2 my-3">
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <!-- FRENTE -->
+                        <div class="flip-front">d</div>
+                        <!-- ATRAS -->
+                        <div class="flip-back">
+                            <img src="img/d.png" alt="d">
+                            <p>d</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- TARJETA E -->
-    <div class="col-6 col-md-4 col-lg-2 my-3">
-        <div class="flip-card">
-            <div class="flip-inner">
-                <!-- FRENTE -->
-                <div class="flip-front">e</div>
-                <!-- ATRAS -->
-                <div class="flip-back">
-                    <img src="img/e.png" alt="e">
-                    <p>e</p>
+            <!-- TARJETA E -->
+            <div class="col-6 col-md-4 col-lg-2 my-3 vocal">
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <!-- FRENTE -->
+                        <div class="flip-front">e</div>
+                        <!-- ATRAS -->
+                        <div class="flip-back">
+                            <img src="img/e.png" alt="e">
+                            <p>e</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- TARJETA F -->
-    <div class="col-6 col-md-4 col-lg-2 my-3">
-        <div class="flip-card">
-            <div class="flip-inner">
-                <!-- FRENTE -->
-                <div class="flip-front">f</div>
-                <!-- ATRAS -->
-                <div class="flip-back">
-                    <img src="img/f.avif" alt="f">
-                    <p>f</p>
+            <!-- TARJETA F -->
+            <div class="col-6 col-md-4 col-lg-2 my-3">
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <!-- FRENTE -->
+                        <div class="flip-front">f</div>
+                        <!-- ATRAS -->
+                        <div class="flip-back">
+                            <img src="img/f.avif" alt="f">
+                            <p>f</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- TARJETA G -->
-    <div class="col-6 col-md-4 col-lg-2 my-3">
-        <div class="flip-card">
-            <div class="flip-inner">
-                <!-- FRENTE -->
-                <div class="flip-front">g</div>
-                <!-- ATRAS -->
-                <div class="flip-back">
-                    <img src="img/g.png" alt="g">
-                    <p>g</p>
+            <!-- TARJETA G -->
+            <div class="col-6 col-md-4 col-lg-2 my-3">
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <!-- FRENTE -->
+                        <div class="flip-front">g</div>
+                        <!-- ATRAS -->
+                        <div class="flip-back">
+                            <img src="img/g.png" alt="g">
+                            <p>g</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- TARJETA H -->
-    <div class="col-6 col-md-4 col-lg-2 my-3">
-        <div class="flip-card">
-            <div class="flip-inner">
-                <!-- FRENTE -->
-                <div class="flip-front">h</div>
-                <!-- ATRAS -->
-                <div class="flip-back">
-                    <img src="img/h.png" alt="h">
-                    <p>h</p>
+            <!-- TARJETA H -->
+            <div class="col-6 col-md-4 col-lg-2 my-3">
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <!-- FRENTE -->
+                        <div class="flip-front">h</div>
+                        <!-- ATRAS -->
+                        <div class="flip-back">
+                            <img src="img/h.png" alt="h">
+                            <p>h</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- TARJETA I -->
-    <div class="col-6 col-md-4 col-lg-2 my-3">
-        <div class="flip-card">
-            <div class="flip-inner">
-                <!-- FRENTE -->
-                <div class="flip-front">i</div>
-                <!-- ATRAS -->
-                <div class="flip-back">
-                    <img src="img/i.png" alt="i">
-                    <p>i</p>
+            <!-- TARJETA I -->
+            <div class="col-6 col-md-4 col-lg-2 my-3 vocal">
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <!-- FRENTE -->
+                        <div class="flip-front ">i</div>
+                        <!-- ATRAS -->
+                        <div class="flip-back">
+                            <img src="img/i.png" alt="i">
+                            <p>i</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- TARJETA J -->
-    <div class="col-6 col-md-4 col-lg-2 my-3">
-        <div class="flip-card">
-            <div class="flip-inner">
-                <!-- FRENTE -->
-                <div class="flip-front">j</div>
-                <!-- ATRAS -->
-                <div class="flip-back">
-                    <img src="img/j.jpg" alt="j">
-                    <p>j</p>
+            <!-- TARJETA J -->
+            <div class="col-6 col-md-4 col-lg-2 my-3">
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <!-- FRENTE -->
+                        <div class="flip-front">j</div>
+                        <!-- ATRAS -->
+                        <div class="flip-back">
+                            <img src="img/j.jpg" alt="j">
+                            <p>j</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- TARJETA K -->
-    <div class="col-6 col-md-4 col-lg-2 my-3">
-        <div class="flip-card">
-            <div class="flip-inner">
-                <!-- FRENTE -->
-                <div class="flip-front">k</div>
-                <!-- ATRAS -->
-                <div class="flip-back">
-                    <img src="img/k.jpg" alt="k">
-                    <p>k</p>
+            <!-- TARJETA K -->
+            <div class="col-6 col-md-4 col-lg-2 my-3">
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <!-- FRENTE -->
+                        <div class="flip-front">k</div>
+                        <!-- ATRAS -->
+                        <div class="flip-back">
+                            <img src="img/k.jpg" alt="k">
+                            <p>k</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- TARJETA L -->
-    <div class="col-6 col-md-4 col-lg-2 my-3">
-        <div class="flip-card">
-            <div class="flip-inner">
-                <!-- FRENTE -->
-                <div class="flip-front">l</div>
-                <!-- ATRAS -->
-                <div class="flip-back">
-                    <img src="img/l.png" alt="l">
-                    <p>l</p>
+            <!-- TARJETA L -->
+            <div class="col-6 col-md-4 col-lg-2 my-3">
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <!-- FRENTE -->
+                        <div class="flip-front">l</div>
+                        <!-- ATRAS -->
+                        <div class="flip-back">
+                            <img src="img/l.png" alt="l">
+                            <p>l</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- TARJETA M -->
-    <div class="col-6 col-md-4 col-lg-2 my-3">
-        <div class="flip-card">
-            <div class="flip-inner">
-                <!-- FRENTE -->
-                <div class="flip-front">m</div>
-                <!-- ATRAS -->
-                <div class="flip-back">
-                    <img src="img/m.jpg" alt="m">
-                    <p>m</p>
+            <!-- TARJETA M -->
+            <div class="col-6 col-md-4 col-lg-2 my-3">
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <!-- FRENTE -->
+                        <div class="flip-front">m</div>
+                        <!-- ATRAS -->
+                        <div class="flip-back">
+                            <img src="img/m.jpg" alt="m">
+                            <p>m</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- TARJETA N -->
-    <div class="col-6 col-md-4 col-lg-2 my-3">
-        <div class="flip-card">
-            <div class="flip-inner">
-                <!-- FRENTE -->
-                <div class="flip-front">n</div>
-                <!-- ATRAS -->
-                <div class="flip-back">
-                    <img src="img/n.avif" alt="n">
-                    <p>n</p>
+            <!-- TARJETA N -->
+            <div class="col-6 col-md-4 col-lg-2 my-3">
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <!-- FRENTE -->
+                        <div class="flip-front">n</div>
+                        <!-- ATRAS -->
+                        <div class="flip-back">
+                            <img src="img/n.avif" alt="n">
+                            <p>n</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- TARJETA O -->
-    <div class="col-6 col-md-4 col-lg-2 my-3">
-        <div class="flip-card">
-            <div class="flip-inner">
-                <!-- FRENTE -->
-                <div class="flip-front">o</div>
-                <!-- ATRAS -->
-                <div class="flip-back">
-                    <img src="img/o.avif" alt="o">
-                    <p>o</p>
+            <!-- TARJETA O -->
+            <div class="col-6 col-md-4 col-lg-2 my-3 vocal">
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <!-- FRENTE -->
+                        <div class="flip-front ">o</div>
+                        <!-- ATRAS -->
+                        <div class="flip-back">
+                            <img src="img/o.avif" alt="o">
+                            <p>o</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- TARJETA P -->
-    <div class="col-6 col-md-4 col-lg-2 my-3">
-        <div class="flip-card">
-            <div class="flip-inner">
-                <!-- FRENTE -->
-                <div class="flip-front">p</div>
-                <!-- ATRAS -->
-                <div class="flip-back">
-                    <img src="img/p.avif" alt="p">
-                    <p>p</p>
+            <!-- TARJETA P -->
+            <div class="col-6 col-md-4 col-lg-2 my-3">
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <!-- FRENTE -->
+                        <div class="flip-front">p</div>
+                        <!-- ATRAS -->
+                        <div class="flip-back">
+                            <img src="img/p.avif" alt="p">
+                            <p>p</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- TARJETA Q -->
-    <div class="col-6 col-md-4 col-lg-2 my-3">
-        <div class="flip-card">
-            <div class="flip-inner">
-                <!-- FRENTE -->
-                <div class="flip-front">q</div>
-                <!-- ATRAS -->
-                <div class="flip-back">
-                    <img src="img/q.jpg" alt="q">
-                    <p>q</p>
+            <!-- TARJETA Q -->
+            <div class="col-6 col-md-4 col-lg-2 my-3">
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <!-- FRENTE -->
+                        <div class="flip-front">q</div>
+                        <!-- ATRAS -->
+                        <div class="flip-back">
+                            <img src="img/q.jpg" alt="q">
+                            <p>q</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- TARJETA R -->
-    <div class="col-6 col-md-4 col-lg-2 my-3">
-        <div class="flip-card">
-            <div class="flip-inner">
-                <!-- FRENTE -->
-                <div class="flip-front">r</div>
-                <!-- ATRAS -->
-                <div class="flip-back">
-                    <img src="img/r.webp" alt="r">
-                    <p>r</p>
+            <!-- TARJETA R -->
+            <div class="col-6 col-md-4 col-lg-2 my-3">
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <!-- FRENTE -->
+                        <div class="flip-front">r</div>
+                        <!-- ATRAS -->
+                        <div class="flip-back">
+                            <img src="img/r.webp" alt="r">
+                            <p>r</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- TARJETA S -->
-    <div class="col-6 col-md-4 col-lg-2 my-3">
-        <div class="flip-card">
-            <div class="flip-inner">
-                <!-- FRENTE -->
-                <div class="flip-front">s</div>
-                <!-- ATRAS -->
-                <div class="flip-back">
-                    <img src="img/s.avif" alt="s">
-                    <p>s</p>
+            <!-- TARJETA S -->
+            <div class="col-6 col-md-4 col-lg-2 my-3">
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <!-- FRENTE -->
+                        <div class="flip-front">s</div>
+                        <!-- ATRAS -->
+                        <div class="flip-back">
+                            <img src="img/s.avif" alt="s">
+                            <p>s</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- TARJETA T -->
-    <div class="col-6 col-md-4 col-lg-2 my-3">
-        <div class="flip-card">
-            <div class="flip-inner">
-                <!-- FRENTE -->
-                <div class="flip-front">t</div>
-                <!-- ATRAS -->
-                <div class="flip-back">
-                    <img src="img/T.png" alt="t">
-                    <p>t</p>
+            <!-- TARJETA T -->
+            <div class="col-6 col-md-4 col-lg-2 my-3">
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <!-- FRENTE -->
+                        <div class="flip-front">t</div>
+                        <!-- ATRAS -->
+                        <div class="flip-back">
+                            <img src="img/T.png" alt="t">
+                            <p>t</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- TARJETA U -->
-    <div class="col-6 col-md-4 col-lg-2 my-3">
-        <div class="flip-card">
-            <div class="flip-inner">
-                <!-- FRENTE -->
-                <div class="flip-front">u</div>
-                <!-- ATRAS -->
-                <div class="flip-back">
-                    <img src="img/U.png" alt="u">
-                    <p>u</p>
+            <!-- TARJETA U -->
+            <div class="col-6 col-md-4 col-lg-2 my-3 vocal">
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <!-- FRENTE -->
+                        <div class="flip-front ">u</div>
+                        <!-- ATRAS -->
+                        <div class="flip-back">
+                            <img src="img/U.png" alt="u">
+                            <p>u</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- TARJETA V -->
-    <div class="col-6 col-md-4 col-lg-2 my-3">
-        <div class="flip-card">
-            <div class="flip-inner">
-                <!-- FRENTE -->
-                <div class="flip-front">v</div>
-                <!-- ATRAS -->
-                <div class="flip-back">
-                    <img src="img/V.png" alt="v">
-                    <p>v</p>
+            <!-- TARJETA V -->
+            <div class="col-6 col-md-4 col-lg-2 my-3">
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <!-- FRENTE -->
+                        <div class="flip-front">v</div>
+                        <!-- ATRAS -->
+                        <div class="flip-back">
+                            <img src="img/V.png" alt="v">
+                            <p>v</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- TARJETA W -->
-    <div class="col-6 col-md-4 col-lg-2 my-3">
-        <div class="flip-card">
-            <div class="flip-inner">
-                <!-- FRENTE -->
-                <div class="flip-front">w</div>
-                <!-- ATRAS -->
-                <div class="flip-back">
-                    <img src="img/w.jpg" alt="w">
-                    <p>w</p>
+            <!-- TARJETA W -->
+            <div class="col-6 col-md-4 col-lg-2 my-3">
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <!-- FRENTE -->
+                        <div class="flip-front">w</div>
+                        <!-- ATRAS -->
+                        <div class="flip-back">
+                            <img src="img/w.jpg" alt="w">
+                            <p>w</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- TARJETA X -->
-    <div class="col-6 col-md-4 col-lg-2 my-3">
-        <div class="flip-card">
-            <div class="flip-inner">
-                <!-- FRENTE -->
-                <div class="flip-front">x</div>
-                <!-- ATRAS -->
-                <div class="flip-back">
-                    <img src="img/X.png" alt="x">
-                    <p>x</p>
+            <!-- TARJETA X -->
+            <div class="col-6 col-md-4 col-lg-2 my-3">
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <!-- FRENTE -->
+                        <div class="flip-front">x</div>
+                        <!-- ATRAS -->
+                        <div class="flip-back">
+                            <img src="img/X.png" alt="x">
+                            <p>x</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- TARJETA Y -->
-    <div class="col-6 col-md-4 col-lg-2 my-3">
-        <div class="flip-card">
-            <div class="flip-inner">
-                <!-- FRENTE -->
-                <div class="flip-front">y</div>
-                <!-- ATRAS -->
-                <div class="flip-back">
-                    <img src="img/Y.jpg" alt="y">
-                    <p>y</p>
+            <!-- TARJETA Y -->
+            <div class="col-6 col-md-4 col-lg-2 my-3">
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <!-- FRENTE -->
+                        <div class="flip-front">y</div>
+                        <!-- ATRAS -->
+                        <div class="flip-back">
+                            <img src="img/Y.jpg" alt="y">
+                            <p>y</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- TARJETA Z -->
-    <div class="col-6 col-md-4 col-lg-2 my-3">
-        <div class="flip-card">
-            <div class="flip-inner">
-                <!-- FRENTE -->
-                <div class="flip-front">z</div>
-                <!-- ATRAS -->
-                <div class="flip-back">
-                    <img src="img/Z.jpg" alt="z">
-                    <p>z</p>
+            <!-- TARJETA Z -->
+            <div class="col-6 col-md-4 col-lg-2 my-3">
+                <div class="flip-card">
+                    <div class="flip-inner">
+                        <!-- FRENTE -->
+                        <div class="flip-front">z</div>
+                        <!-- ATRAS -->
+                        <div class="flip-back">
+                            <img src="img/Z.jpg" alt="z">
+                            <p>z</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            <footer class="d-flex justify-content-center bg-dark text-white">
+                <p>Grupo 10:</p><br>
+
+                <div class="justify-content-center"><br>
+                    <span>Juan Castro</span><br>
+                    <span>Alexandra Diaz</span><br>
+                    <span>Luis Salgado</span><br>
+                    <span>Cristian Ceballos</span>
+                </div>
+
+
+            </footer>
         </div>
-    </div>
-
-    <footer class="d-flex justify-content-center bg-dark text-white">
-        <p>Grupo 10:</p><br>
-
-        <div class="justify-content-center"><br>
-        <span>Juan Castro</span><br>
-        <span>Alexandra Diaz</span><br>
-        <span>Luis Salgado</span><br>
-        <span>Cristian Ceballos</span>
-        </div>
-
-
-    </footer>
-</div>
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
