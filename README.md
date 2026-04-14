@@ -29,7 +29,7 @@ Bootstrap 5
      └── ...
 ⚙️ Instalación y uso
 Clona el repositorio:
-git clone [https://github.com/tu-usuario/tu-repo.git](https://github.com/ceballos25/sitio-web-abc-GP10.git)
+git clone https://github.com/ceballos25/sitio-web-abc-GP10.git
 Abre el proyecto:
 cd sitio-web-abc-GP10
 Ejecuta:
